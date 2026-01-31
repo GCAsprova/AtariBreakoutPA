@@ -7,7 +7,7 @@ import cv2
 import ale_py
 
 
-# --- 1. XAI Functions ---
+# --- 1. XAI Function ---
 
 def compute_saliency_map(model, state_input):
     state_tensor = tf.convert_to_tensor(state_input, dtype=tf.float32)
@@ -66,7 +66,7 @@ def play_with_xai():
         overlay = cv2.addWeighted(raw_frame, 0.6, heatmap, 0.4, 0)
 
 
-        # 5. Stitch together [Game | Heatmap | Q-Bars]
+        # 4. Stitch together [Game | Heatmap ]
         dashboard = np.hstack((raw_frame, overlay))
 
         # Display
