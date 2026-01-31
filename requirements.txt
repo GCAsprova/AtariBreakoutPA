@@ -3,6 +3,7 @@ numpy==2.4.1
 pandas==3.0.0
 tensorflow==2.20.0
 keras-nightly==3.14.0.dev2026013104
+matplotlib == 3.10.8
 
 # Environment & RL (Gymnasium)
 gymnasium==1.2.3
