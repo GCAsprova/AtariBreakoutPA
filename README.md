@@ -6,7 +6,7 @@ This project implements a Double Deep Q-Network to master the Atari Breakout env
 
 Training_Notebook.ipynb: The training pipeline. Handles environment wrapping, the Replay Buffer,the training loop and model architecture.
 
-LivePlay_XAI.py: The demonstration script. Loads the trained model and runs a "Dashboard" view with real-time Explainable AI (Saliency Map).
+Demofile: The demonstration script. Loads the trained model and runs a "Dashboard" view with real-time Explainable AI (Saliency Map).
 
 # 2. How to Run
 
