@@ -27,6 +27,7 @@ Demo:
     Hasn't discovered tunneling yet.
 
   Training parameters:
+    
     Trained for the first 1.5 Million frames with :
         batch_size = 32
         learning_rate = 1e-4
